@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "nav.css";
 @import "content.css";
+@import "footer.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
@@ -34,12 +35,6 @@ h2 {
     line-height: 46px;
 }
 
-h3 {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-}
-
 b {
     font-weight: bold;
 }
@@ -50,13 +45,9 @@ b {
     grid-template-areas:    "nav"
                             "content"
                             "footer";
-    padding: 0 160px;
-    /*height: 100vh;*/
-}
+    /*padding: 0 160px;*/
 
-.footer {
-    grid-area: footer;
-    background-color: darkgreen;
+    /*height: 100vh;*/
 }
 
 .contacts {
@@ -84,4 +75,14 @@ b {
 .thin-border {
     border: 1px solid #CFD7DC;
     border-radius: 8px;
+}
+
+.title-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.highlighted-text {
+    color: #27ACA1;
 }

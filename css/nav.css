@@ -1,6 +1,8 @@
 nav {
     grid-area: nav;
     padding-top: 24px;
+    padding-left: 160px;
+    padding-right: 160px;
 
     display: flex;
     flex-direction: column;

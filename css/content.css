@@ -1,6 +1,9 @@
 .content {
     grid-area: content;
     padding-top: 64px;
+    padding-bottom: 80px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 
