@@ -1,17 +1,24 @@
 .content {
     grid-area: content;
-    padding-top: 64px;
-    padding-bottom: 80px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding: 64px 160px 80px 160px ;
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    width: 1920px;
 }
 
 
 .content-about {
     display: flex;
-    gap: 64px;
+    flex-direction: column;
+    gap: 32px;
+}
 
-    padding-top: 32px;
+.content-about-container {
+    display: flex;
+    gap: 64px;
 }
 
 .content-about-text {
@@ -28,8 +35,6 @@
 .content-about-docs {
     display: flex;
     gap: 32px;
-    flex-grow: 1;
-    justify-content: end;
 }
 
 .content-about-docs-item {
@@ -51,25 +56,9 @@
 }
 
 
-.content-activity-direction {
-    padding-top: 80px;
-}
-
-.content-activity-direction-container {
-    display: grid;
-    grid-template-columns: 784px 784px;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 16px;
-    justify-content: start;
-}
-
-
 .content-cooperation-container {
     display: flex;
-    gap: 16px;
-    align-items: flex-start;
-
-    order: 1;
+    gap: 23px;
 }
 
 .content-cooperation-container-item {
@@ -101,8 +90,6 @@
     position: absolute;
     left: 32px;
     top: 0;
-
-    z-index: 1;
 }
 
 .content-team-staff-text {
@@ -135,7 +122,6 @@
 
 .content-team-staff-text-description {
     height: 56px;
-
     color: #5D647D;
 }
 
@@ -143,7 +129,6 @@
 .content-info-partners {
     display: flex;
     gap: 168px;
-
 }
 
 .content-info-list {
@@ -171,16 +156,13 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-
-    padding-top: 80px;
 }
 
 .content-thematic-block-container {
     display: grid;
-    grid-template-columns: 784px 784px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 16px;
-    justify-content: start;
+    gap: 32px;
 }
 
 
@@ -207,7 +189,6 @@
 
 .content-form-button {
     width: 683px;
-
 }
 
 .content-form-input {
@@ -233,6 +214,12 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
+}
+
+.content-stroke-panel div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .content-detail-btn {

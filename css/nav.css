@@ -1,8 +1,7 @@
 nav {
     grid-area: nav;
-    padding-top: 24px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding: 24px 160px 0 160px ;
+    width: 1920px;
 
     display: flex;
     flex-direction: column;
@@ -12,12 +11,12 @@ nav {
 .nav-top {
     display: flex;
     gap: 48px;
-    justify-content: space-between;
     align-items: center;
 }
 
-.nav-top > div {
-    flex-grow: 1;
+.nav-top-logo-search {
+    display: flex;
+    gap: 48px;
 }
 
 .nav-top-logo {
@@ -37,17 +36,13 @@ nav {
 .nav-top-registration {
     display: flex;
     gap: 12px;
+    flex: 1;
     justify-content: end;
 }
 
 .nav-bottom {
     display: flex;
-    justify-content: space-between;
     gap: 48px;
-}
-
-.nav-bottom > div {
-    flex-grow: 1;
 }
 
 .nav-bottom-categories {
@@ -67,6 +62,8 @@ nav {
     display: flex;
     gap: 32px;
     justify-content: end;
+
+    flex: 1;
 }
 
 .content-mailing-follow input {

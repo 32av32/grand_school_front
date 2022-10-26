@@ -45,9 +45,6 @@ b {
     grid-template-areas:    "nav"
                             "content"
                             "footer";
-    /*padding: 0 160px;*/
-
-    /*height: 100vh;*/
 }
 
 .contacts {
@@ -63,9 +60,10 @@ b {
     height: 46px;
     width: 250px;
     border-radius: 8px;
+    /*padding: 9px 24px 9px 16px;*/
 
     display: flex;
-    gap: 12px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
 
