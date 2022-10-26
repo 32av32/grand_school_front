@@ -80,6 +80,89 @@
 }
 
 
+.content-team-staff-container {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 32px;
+}
+
+.content-team-staff {
+    padding-top: 80px;
+    position: relative;
+}
+
+.content-team-staff-avatar {
+    width: 160px;
+    height: 160px;
+
+    position: absolute;
+    left: 32px;
+    top: 0;
+
+    z-index: 1;
+}
+
+.content-team-staff-text {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 32px 28px;
+    gap: 48px;
+
+    border-radius: 16px;
+    background-color: #F6F8FA;
+
+    width: 376px;
+    height: 380px;
+}
+
+.content-team-staff-text > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    width: 312px;
+    height: 136px;
+}
+
+.content-team-staff-text-title {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.content-team-staff-text-description {
+    height: 56px;
+
+    color: #5D647D;
+}
+
+
+.content-info-partners {
+    display: flex;
+    gap: 168px;
+
+}
+
+.content-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    align-items: start;
+}
+
+.content-partners {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.content-partners img {
+    max-width: 460px;
+}
+
+
+
 .content-thematic-block {
     display: flex;
     flex-direction: column;
@@ -96,6 +179,42 @@
     gap: 16px;
     justify-content: start;
 }
+
+
+.content-mailing {
+    background-color: #F6F8FA;
+    border-radius: 16px;
+    padding: 32px;
+    height: 336px;
+
+    display: flex;
+}
+
+.content-mailing-follow {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content-mailing-follow div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.content-form-button {
+    width: 683px;
+
+}
+
+.content-form-input {
+    width: 683px;
+    height: 60px;
+
+    padding: 16px 0 16px 16px;
+}
+
+
 
 .content-stroke-panel {
     background-color: #F6F8FA;
@@ -117,7 +236,6 @@
     border-radius: 8px;
     background-color: #FFFFFF;
     height: 60px;
-    width: 166px;
     padding: 16px 32px;
 
     display: flex;
@@ -134,4 +252,3 @@
     font-weight: 600;
     text-align: center;
 }
-

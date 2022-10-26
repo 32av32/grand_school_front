@@ -24,9 +24,6 @@ nav {
 }
 
 .nav-top-search-form {
-    border: 1px solid #CFD7DC;
-    border-radius: 8px;
-
     height: 46px;
     width: 892px;
 
@@ -68,4 +65,8 @@ nav {
     display: flex;
     gap: 32px;
     justify-content: end;
+}
+
+.content-mailing-follow input {
+
 }
