@@ -10,20 +10,20 @@
     <nav>
         <div class="nav-top">
             <div class="nav-top-logo">
-                <a href="#"><img src="/img/images/logo.png"/></a>
+                <a href="#"><img src="/img/images/logo.png" alt=""/></a>
             </div>
             <div>
                 <form class="nav-top-search-form thin-border" action="#" method="get">
-                    <button type="submit"><img src="/img/icons/24/Search.svg"></button>
+                    <button type="submit"><img src="/img/icons/24/Search.svg" alt=""></button>
                     <input placeholder="Поиск по сайту" type="search">
                 </form>
             </div>
             <div class="nav-top-registration">
-                <button class="light-grey-block">
+                <button class="button-action">
                     <img src="./img/icons/20/Person.png">
                     Регистрация и вход
                 </button>
-                <button class="light-grey-block">
+                <button class="button-action">
                     <img src="./img/icons/20/Phone.png">
                     Заказать звонок
                 </button>
@@ -247,6 +247,22 @@
                 </div>
             </div>
         </div>
+        <div class="content-our-partners">
+            <div class="content-our-partners-title">
+                <h2>С нами работают</h2>
+                <a class="content-link" href="#">Стать партнёром →</a>
+            </div>
+            <div class="content-our-partners-list">
+                <img src="/img/images/Partners/Sber.png">
+                <img src="/img/images/Partners/Gazprombank.png">
+                <img src="/img/images/Partners/Gazprom.png">
+                <img src="/img/images/Partners/Alfa.png">
+                <img src="/img/images/Partners/Ural.png">
+                <img src="/img/images/Partners/Tele2.png">
+                <img src="/img/images/Partners/Polus.png">
+                <img src="/img/images/Partners/Floors.png">
+            </div>
+        </div>
         <div class="content-info-partners">
             <div class="content-thematic-block">
                 <h2>Сведения об образовательной организации</h2>
@@ -278,14 +294,22 @@
             </div>
         </div>
         <div class="content-mailing">
-            <form class="content-mailing-follow" action="#" method="post">
-                <p class="title-text">Читай нашу рассылку и будь в курсе новостей и скидок</p>
-                <div>
-                    <input class="content-form-input thin-border" type="text" placeholder="Имя" />
-                    <input class="content-form-input form-input thin-border" type="text" placeholder="Электронная почта" />
+            <div>
+                <form class="content-mailing-follow" action="#" method="post">
+                    <p class="title-text">Читай нашу рассылку и будь в курсе новостей и скидок</p>
+                    <div>
+                        <input class="content-form-input thin-border" type="text" placeholder="Имя" />
+                        <input class="content-form-input form-input thin-border" type="text" placeholder="Электронная почта" />
+                    </div>
+                    <button class="content-detail-btn content-form-button" type="submit">Подписаться</button>
+                </form>
+            </div>
+            <div class="content-mailing-list">
+                <div class="content-mailing-list-item">
+                    <img class="content-mailing-list-item-image" src="img/icons/message.svg" />
+                    <span>Новый курс для бухгалтеров ломбарда</span>
                 </div>
-                <button class="content-detail-btn content-form-button" type="submit">Подписаться</button>
-            </form>
+            </div>
         </div>
     </div>
 
@@ -310,7 +334,7 @@
                 <p>196084, г. Санкт-Петербург,</p>
                 <p>пр. Московский, д. 97, офис 507</p>
             </di>
-            <button class="light-grey-block">Открыть Яндекс.Карты</button>
+            <button class="button-action">Открыть Яндекс.Карты</button>
         </div>
         <div class="footer-policy">
             <ul class="footer-info-list">

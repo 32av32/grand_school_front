@@ -126,6 +126,30 @@
 }
 
 
+.content-our-partners {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-our-partners-title {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-our-partners-list {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+.content-our-partners-list img {
+    max-width: 256px;
+}
+
+
 .content-info-partners {
     display: flex;
     gap: 168px;
@@ -148,8 +172,6 @@
 .content-partners img {
     max-width: 460px;
 }
-
-
 
 .content-thematic-block {
     display: flex;
@@ -187,6 +209,26 @@
     gap: 12px;
 }
 
+.content-mailing-list-item {
+    position: relative;
+}
+
+.content-mailing-list-item-image {
+    height: 136px;
+    width: 690px;
+}
+
+.content-mailing-list-item span {
+    position: absolute;
+    left: 10%;
+    top: 33%;
+
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+
 .content-form-button {
     width: 683px;
 }
@@ -197,8 +239,6 @@
 
     padding: 16px 0 16px 16px;
 }
-
-
 
 .content-stroke-panel {
     background-color: #F6F8FA;
