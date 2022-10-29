@@ -474,4 +474,5 @@ h2 {
     gap: 24px;
 
     align-items: start;
+    white-space: nowrap;
 }
